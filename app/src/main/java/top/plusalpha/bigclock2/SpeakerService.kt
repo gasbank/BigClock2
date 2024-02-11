@@ -104,7 +104,7 @@ class SpeakerService : Service(), TextToSpeech.OnInitListener {
 
     private fun speakOut(message: String?) {
         if (message != null) {
-            tts.setSpeechRate(0.5f)
+            tts.setSpeechRate(1.0f)
             tts.speak(message, TextToSpeech.QUEUE_FLUSH, null, null)
             Log.d(LOG_TAG, "TTS: Speaking: $message")
         } else {

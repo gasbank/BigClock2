@@ -18,7 +18,7 @@
         android:format12Hour="MM/dd\na\nhh:mm"
         android:text="@string/appwidget_text"
         android:textAlignment="center"
-        android:textSize="100sp"
+        android:textSize="80sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
